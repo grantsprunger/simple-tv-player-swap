@@ -2,7 +2,7 @@
 
 	var done = false;
 	var script = document.createElement("script");
-	script.src = "https://dl.dropboxusercontent.com/s/ythtyd0t9p2ks57/jwplayer-min.js?dl=1&token_hash=AAF1EFY6xNSFf6JzH60Ev0IlW6VpaITitaeaRhxlwxOaaQ";
+	script.src = "https://github.com/grantsprunger/simple-tv-player-swap/raw/master/jwplayer-min.js";
 	script.onload = script.onreadystatechange = function(){
 		if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
 			done = true;
